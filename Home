@@ -23,3 +23,14 @@ php
   </main>
 </body>
 </html>
+css
+:root {
+  --bg: #f8f9fa;
+  --text: #111;
+  --accent: #2c7be5;
+}
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto; background: var(--bg); color: var(--text); }
+header { padding: 1rem; background: #fff; border-bottom: 1px solid #ddd; }
+header h1 { margin: 0 0 0.25rem 0; }
+nav a { margin-right: 1rem; text-decoration: none; color: var(--accent); }
+main { padding: 1rem; max-width: 800px; margin: 0 auto; }
